@@ -21,5 +21,11 @@ namespace GitNetCore.Controllers
 
             return View();
         }
+        public ActionResult two()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
     }
 }
