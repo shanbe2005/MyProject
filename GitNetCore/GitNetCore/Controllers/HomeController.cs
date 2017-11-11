@@ -34,6 +34,11 @@ namespace GitNetCore.Controllers
 
             return View();
         }
-        
+         public ActionResult WroteFromGit1()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
     }
 }
